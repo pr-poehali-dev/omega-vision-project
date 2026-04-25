@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react"
 
 const services = [
   {
-    title: "Жилые интерьеры",
-    description: "Полное преображение дома с учётом вашего образа жизни. От отдельных комнат до целых резиденций.",
+    title: "Стиль и пространство",
+    description: "Как создать красивый и уютный дом без дизайнера. Советы, идеи и вдохновение для каждого интерьера.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -15,34 +15,34 @@ const services = [
     ),
   },
   {
-    title: "Планировка",
-    description: "Продуманные решения, создающие естественный поток и функциональные зоны для жизни, работы и отдыха.",
+    title: "Осознанность",
+    description: "Практики замедления, медитации и внимательности. Как жить в настоящем моменте и находить радость в малом.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
         />
       </svg>
     ),
   },
   {
-    title: "Подбор материалов",
-    description: "Натуральные материалы и авторские предметы ручной работы, которые красиво стареют и рассказывают историю.",
+    title: "Творчество и идеи",
+    description: "Вдохновляющие идеи для творчества, хобби и новых увлечений. Открывайте в себе новые грани каждый день.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+          d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
         />
       </svg>
     ),
   },
   {
-    title: "Светодизайн",
-    description: "Многоуровневое освещение, меняющееся в течение дня, создающее атмосферу и поддерживающее благополучие.",
+    title: "Забота о себе",
+    description: "Ритуалы, привычки и маленькие радости, которые наполняют жизнь смыслом и поддерживают внутренний баланс.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -86,14 +86,14 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            Наши услуги
+            О чём пишем
           </p>
           <h2
             className={`font-serif text-4xl md:text-5xl lg:text-6xl font-light text-foreground text-balance transition-all duration-1000 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Что мы делаем
+            Темы журнала
           </h2>
         </div>
 

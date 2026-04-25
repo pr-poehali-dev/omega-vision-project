@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              Наш взгляд на мир
             </p>
 
             <h2
@@ -55,10 +55,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
+              Красота
+              <span className="italic"> в деталях</span>
               <br />
-              жизни
+              каждого дня
             </h2>
 
             <div
@@ -67,13 +67,12 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                Мы верим, что красота — не в роскоши и не в идеальных картинках. Она живёт в маленьких
+                ритуалах, неожиданных открытиях и моментах, когда жизнь вдруг ощущается правильной.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Наш журнал — это место, где идеи встречаются с практикой, а вдохновение превращается
+                в <em className="text-foreground">конкретные шаги</em> к жизни, которая тебя радует.
               </p>
             </div>
 
@@ -84,16 +83,16 @@ export function Philosophy() {
               }`}
             >
               <div>
+                <p className="font-serif text-3xl md:text-4xl text-sage">500+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Материалов</p>
+              </div>
+              <div>
                 <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Тем</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">∞</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Вдохновения</p>
               </div>
             </div>
           </div>
